@@ -253,8 +253,7 @@ a {
   border: 2px solid #ededed;
   color: #363636;
   opacity: 1;
-  padding: 10%;
-  z-index: 1;
+  padding: 5%;
 }
 
 .vert-item {
