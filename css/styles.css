@@ -261,7 +261,12 @@ a {
 }
 
 .horiz-item {
-  max-height: 250px;
+  max-height: 400px;
+}
+
+.horiz-item .item-info {
+  font-size: .9em;
+  padding: 2%;
 }
 
 #contact-page {
