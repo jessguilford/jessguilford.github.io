@@ -254,6 +254,7 @@ a {
   color: #363636;
   opacity: 1;
   padding: 10%;
+  z-index: 1;
 }
 
 .vert-item {
