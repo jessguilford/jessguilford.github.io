@@ -218,6 +218,10 @@ a {
   padding: 0;
 }
 
+.item-info h1 {
+  text-transform: uppercase;
+}
+
 .item-label p {
   font-size: .8em;
   margin: 0;
@@ -402,7 +406,11 @@ a {
   }
 
   .horiz-item {
-    max-height: 200px;
+    min-height: 200px;
+  }
+
+  .horiz-item img {
+    margin-top: 15%;
   }
 }
 
