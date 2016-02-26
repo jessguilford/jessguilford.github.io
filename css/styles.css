@@ -310,10 +310,6 @@ a {
     width: 48%;
   }
 
-  .vert-item {
-    max-height: 320px;
-  }
-
   .col3 {
     width: 100%;
     float: none;
@@ -323,7 +319,7 @@ a {
   .col3 .vert-item {
     float: left;
     width: 48%;
-    margin: 0 1% 0 0;
+    margin: -8% 1% 0 0;
   }
 
   .col3 .horiz-item {
@@ -390,13 +386,6 @@ a {
 }
 
 @media screen and (max-width: 350px) {
-  .vert-item {
-    max-height: 280px;
-  }
-
-  .horiz-item {
-    min-height: 200px;
-  }
 
   .horiz-item img {
     margin-top: 15%;
