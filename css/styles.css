@@ -185,16 +185,6 @@ a {
 
 .portfolio-item img {
   width: 100%;
-  /*width: 70%;
-  margin: 10% 15%;*/
-  /*max-width: 260px;
-  margin: 15% 15%;*/
-  /*position: absolute;
-  top: 25%;
-  left: 50%;
-  transform: translate(-50%, -25%);*/
-  /*box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 5px;*/
 }
 
 .item-label {
@@ -203,7 +193,7 @@ a {
   left: 0;
   width: 100%;
   height: 50px;
-  background-color: #343450;
+  background-color: #191919;
   border-top: 3px solid #fff;
   color: #fff;
   opacity: 1;
