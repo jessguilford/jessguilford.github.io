@@ -386,10 +386,19 @@ a {
 }
 
 @media screen and (max-width: 350px) {
-
   .horiz-item img {
-    margin-top: 15%;
+    margin-top: 20%;
   }
+  .portfolio-item {
+    background-color: #fffdfa;
+  }
+  .item-info {
+    font-size: .8em;
+  }
+  .item-info a:nth-child(2) {
+    display: none;
+  }
+
 }
 
 
