@@ -56,6 +56,7 @@ body {
   color: #242d33;
   /*color: #584d45;*/
   background-color: #fffdfa;
+  margin: 0;
 }
 
 h1 {
@@ -79,6 +80,15 @@ h3 {
   margin: -4px 0 0 0;
   font-size: 1em;
   font-weight: normal;
+}
+
+.hero-container {
+  width: 100%;
+  height: 720px;
+  margin-bottom: 50px;
+  background-image: url("../images/delftpattern.jpg");
+  background-repeat: repeat;
+  border-bottom: 20px solid #242d33;
 }
 
 .articles-main a {
@@ -122,10 +132,11 @@ a {
 }
 
 .masthead {
-  width: 100%;
-  min-height: 150px;
+  width: 50%;
+  padding: 30px;
   text-align: center;
-  margin: 0;
+  margin: 0 auto;
+  background-color: #fffdfa;
 }
 
 #main-logo {
@@ -133,19 +144,19 @@ a {
 }
 
 .see-work {
+  margin: 50px 0;
   text-align: center;
-  margin-bottom: 350px;
 }
 
 .see-work a {
   text-decoration: none;
 }
 
-#front-page-portfolio {
+/*#front-page-portfolio {
   text-align: center;
   text-transform: uppercase;
   min-height: 20px;
-}
+}*/
 
 /* Gallery */
 
@@ -193,7 +204,7 @@ a {
   left: 0;
   width: 100%;
   height: 60px;
-  background-color: #191919;
+  background-color: #242d33;
   border-top: 3px solid #fff;
   color: #fff;
   opacity: 1;
@@ -213,6 +224,7 @@ a {
 
 .item-info p {
   line-height: 1.3em;
+  margin: 10px 0;
 }
 
 .item-label p {
@@ -266,6 +278,10 @@ a {
   padding: 2%;
 }
 
+#info-item06 .item-info a {
+  margin-top: -3px;
+}
+
 #contact-page {
   display: none;
 }
@@ -309,7 +325,11 @@ a {
   }
 }
 
-@media screen and (max-width: 976px) and (min-width: 541px) {
+@media screen and (max-width: 976px) and (min-width: 581px) {
+  .item-info {
+    font-size: .9em;
+  }
+
   .col {
     width: 48%;
   }
@@ -343,7 +363,10 @@ a {
   }
 }
 
-@media screen and (max-width:540px) {
+@media screen and (max-width:580px) {
+  .masthead {
+    width: 90%;
+  }
   .col {
     float: none;
     width: 100%;
@@ -369,12 +392,12 @@ a {
   }
 
   .navlinks li {
-    min-height: 30px;
     float: none;
-    margin-left: 0;
-    margin-bottom: 8px;
+    margin: 2px 2px 8px 2px;
     font-size: 1.2em;
-    background-color: rgba(255, 255, 255, 0.5);
+    line-height: 1em;
+    padding: 4px;
+    background-color: rgba(255, 255, 255, 1);
     border: 1px solid #242d33;
   }
 
@@ -399,15 +422,11 @@ a {
   .item-info a:last-child {
     display: none;
   }
-  .item-info {
-    font-size: .9em;
-  }
-
 }
 
 
 /* Fix nav display bug that occurs when resizing browser window*/
-@media screen and (min-width: 541px) {
+@media screen and (min-width: 581px) {
   .navlinks li {
     display: inline;
   }
