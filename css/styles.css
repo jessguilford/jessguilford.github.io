@@ -23,7 +23,7 @@ Parchment: #fefcf7;
   margin: 0 auto 140px auto;
   width: 100%;
   position: fixed;
-  z-index: 1;
+  z-index: 20;
   font-family: Gill Sans / Gill Sans MT, sans-serif;
   text-transform: uppercase;
   background-color: #fffdfa;
