@@ -4,3 +4,11 @@ $(document).ready(function() {
     $("#x-toggle-" + this.id).toggleClass("item-x-rotated");
   });
 });
+
+$(window).scroll(function() {
+  if( $(this).scrollTop()>130) {
+    $(".masthead").fadeOut();
+  } else {
+    $(".masthead").fadeIn();
+  }
+});
