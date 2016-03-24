@@ -390,7 +390,7 @@ h3 {
 
 @media screen and (max-width:580px) {
   .masthead {
-    width: 90%;
+    width: 100%;
     text-align: center;
     overflow: hidden;
   }
