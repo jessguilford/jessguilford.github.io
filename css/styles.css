@@ -23,6 +23,8 @@ Parchment: #fefcf7;
   margin: 0 auto 140px auto;
   width: 100%;
   position: fixed;
+  top: 0;
+  left: 0;
   z-index: 20;
   font-family: Gill Sans / Gill Sans MT, sans-serif;
   text-transform: uppercase;
@@ -130,7 +132,7 @@ h3 {
   height: 720px;
   margin-bottom: 50px;
   margin-top: 0;
-  background-color: #e5e3e1;
+  background-color: #dcd9d6;
   z-index: -10;
 }
 
@@ -287,14 +289,6 @@ h3 {
   padding: 5%;
 }
 
-/*.vert-item {
-  max-height: 400px;
-}
-
-.horiz-item {
-  max-height: 400px;
-}*/
-
 .horiz-item .item-info {
   padding: 2%;
 }
@@ -307,13 +301,25 @@ h3 {
   display: none;
 }
 
+#contact {
+  border-top: 2px solid #242d33;
+  background-color: #c7baaa;
+  padding: 30px 0;
+  position: relative;
+}
+
 /* About Page Items */
 
 .about-main {
+  margin-top: 100px;
   width: 60%;
 }
 
 /* Articles */
+
+.articles-main {
+  margin-top: 100px;
+}
 
 .article {
   width: 60%;
@@ -326,6 +332,10 @@ h3 {
 
 .article h2 {
   margin-bottom: 40px;
+}
+
+.articles-main a {
+  color: #191919;
 }
 
 /* Media Queries */
