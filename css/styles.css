@@ -86,6 +86,10 @@ h3 {
   font-weight: normal;
 }
 
+a {
+  color: #666564;
+}
+
 .articles-main a {
   font-size: 1em;
   font-family: 'Vollkorn Regular', sans-serif;
@@ -221,6 +225,10 @@ h3 {
   width: 100%;
 }
 
+#sb {
+  background-color: #fffdfa;
+}
+
 .item-label {
   position: absolute;
   bottom: -45px;
@@ -313,12 +321,13 @@ h3 {
 .about-main {
   margin-top: 100px;
   width: 60%;
+  margin: 100px auto;
 }
 
 /* Articles */
 
 .articles-main {
-  margin-top: 100px;
+  margin: 100px auto;
 }
 
 .article {
@@ -338,6 +347,11 @@ h3 {
   color: #191919;
 }
 
+/* Design page */
+.design-main {
+  margin: 100px auto;
+}
+
 /* Media Queries */
 /* media query for all screens that are smaller than laptops */
 @media screen and (max-width: 976px) {
@@ -351,7 +365,6 @@ h3 {
 
   .about-main {
     width: 90%;
-    margin: 0 auto;
   }
 
   .article {
